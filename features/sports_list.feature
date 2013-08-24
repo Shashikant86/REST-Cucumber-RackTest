@@ -2,9 +2,7 @@ Feature: Sports
   In order to know about different sports
   As a sport fan
   I want list of some sports
-
 Scenario: List of the sports
-
 Given the system knows about the following sports::
 | name       | player |
 | Cricket     | Sachin Tendulkar |
@@ -19,8 +17,6 @@ And response should be JSON:
   {"name": "Cricket", "player": "Sachin Tendulkar"},
   {"name": "Tennis", "player": "Andy Murray"},
   {"name": "FootBall", "player": "David Beckham"}
-
-
 ]
 """
 
