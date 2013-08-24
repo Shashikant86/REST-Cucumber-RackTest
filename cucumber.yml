@@ -1,0 +1,3 @@
+default: --profile html_report --profile rack
+html_report: --format progress --format html --out=report/features_report.html
+rack: --tags @rack
